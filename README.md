@@ -47,3 +47,4 @@ including one pump event is already in the database.
 - The Flutter app reads via the backend; Supabase RLS protects direct access.
 - `DEV_ALLOW_ANON=true` (classroom mode) leaves GET endpoints open — set to
   `false` and wire Supabase Auth into the app before any public deployment.
+"# growspace-iot" 
