@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__1f1187ec-c123-4dd7-b27d-d080fb68af25__list_projects",
+      "mcp__1f1187ec-c123-4dd7-b27d-d080fb68af25__list_organizations",
+      "mcp__1f1187ec-c123-4dd7-b27d-d080fb68af25__get_cost",
+      "mcp__1f1187ec-c123-4dd7-b27d-d080fb68af25__confirm_cost",
+      "mcp__1f1187ec-c123-4dd7-b27d-d080fb68af25__create_project",
+      "mcp__1f1187ec-c123-4dd7-b27d-d080fb68af25__apply_migration",
+      "mcp__1f1187ec-c123-4dd7-b27d-d080fb68af25__get_project",
+      "mcp__1f1187ec-c123-4dd7-b27d-d080fb68af25__list_tables",
+      "mcp__1f1187ec-c123-4dd7-b27d-d080fb68af25__get_advisors",
+      "mcp__1f1187ec-c123-4dd7-b27d-d080fb68af25__get_project_url",
+      "mcp__1f1187ec-c123-4dd7-b27d-d080fb68af25__get_publishable_keys",
+      "PowerShell(python --version)",
+      "PowerShell(py --version)",
+      "PowerShell($proj = \"C:\\\\Users\\\\asus\\\\OneDrive - Universiti Putra Malaysia\\\\Documents\\\\Coding Projects\\\\Internet of Everything \\(IoE\\) for Student’s Education, Urban Vertical Agriculture, Community and Parent’s Hands-On Project\"; $empty = \"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\empty_dir_ioe\"; New-Item -ItemType Directory -Force $empty | Out-Null; robocopy $empty \"$proj\\\\frontend\\\\build\" /MIR /NFL /NDL /NJH /NJS | Out-Null; cmd /c \"rmdir /s /q `\"$proj\\\\frontend\\\\build`\"\"; Remove-Item $empty -Force; if \\(Test-Path \"$proj\\\\frontend\\\\build\"\\) { \"build still exists\" } else { \"build deleted\" })",
+      "PowerShell($proj = \"C:\\\\Users\\\\asus\\\\OneDrive - Universiti Putra Malaysia\\\\Documents\\\\Coding Projects\\\\Internet of Everything \\(IoE\\) for Student’s Education, Urban Vertical Agriculture, Community and Parent’s Hands-On Project\"; New-Item -ItemType Directory -Force C:\\\\Users\\\\asus\\\\Dev | Out-Null; if \\(-not \\(Test-Path C:\\\\Users\\\\asus\\\\Dev\\\\ioe\\)\\) { New-Item -ItemType Junction -Path C:\\\\Users\\\\asus\\\\Dev\\\\ioe -Target $proj | Out-Null }; \\(Get-Item C:\\\\Users\\\\asus\\\\Dev\\\\ioe\\).LinkType; Set-Location C:\\\\Users\\\\asus\\\\Dev\\\\ioe\\\\frontend; flutter test)"
+    ]
+  }
+}
